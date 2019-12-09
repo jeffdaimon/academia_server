@@ -17,5 +17,5 @@ import org.springframework.stereotype.Repository;
 @Repository
 public interface ClienteDAO extends CrudRepository<Cliente, Integer>{
     List<Cliente> findByNome(String nome);
-     List<Cliente> findByMatricula(double matricula);
+    List<Cliente> findByMatricula(double matricula);
 }

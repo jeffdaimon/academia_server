@@ -15,5 +15,5 @@ import org.springframework.stereotype.Repository;
  */
 @Repository
 public interface AtendenteDAO extends CrudRepository<Atendente, Integer>{
-    
+    public Atendente findByLogin(String login);
 }
